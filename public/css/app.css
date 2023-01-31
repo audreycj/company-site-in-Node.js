@@ -1,0 +1,638 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #fdfdfe;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*========== HEADER ==========*/
+.header-flex {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10%;
+    position: sticky;
+    top: 0px;
+    background-color: #fdfdfe;
+}
+
+.header-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 8%;
+}
+
+.header-logo {
+    height: 40px;
+    transition: transform .2s;
+}
+
+.header-logo:hover {
+    transform: scale(1.2);
+}
+
+.tab-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+}
+
+.tab-button {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    color: #3c3257;
+    background-color: #fdfdfe;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.tab-button:hover {
+    background-color: #3c3257;
+    color: #fdfdfe;
+    transform: scale(1.1);
+}
+
+
+/*========== 1ST SECTION: LANDING PAGE ==========*/
+.first-section-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.text-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 35%;
+    padding: 25px;
+}
+
+.section-1-heading {
+    font-size: 60px;
+    font-weight: 700;
+    color: #3c3257;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+.section-1-subheading {
+    font-size: 20px;
+    line-height:1.8;
+    width: 90%;
+    color: dimgrey;
+}
+
+.colored-text {
+    color: #745abf;
+}
+
+.request-button {
+    height: 80px;
+    width: 300px;
+    margin-top: 60px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #745abf;
+    transition-duration: 0.3s;
+    box-shadow: 1px 4px 10px 0px rgba(129, 129, 129, 0.75);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.request-button:hover {
+    background-color: #3c3257;
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.image-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 55%;
+}
+
+.background-image {
+    width: 100%;
+}
+
+
+
+/*========== 2ND SECTION: 3 STEPS ==========*/
+.second-section-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 50px;
+}
+
+.section-2-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 700;
+    color: #745abf;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px solid #745abf;
+    height: 120px;
+    width: 50%;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+.steps-row-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 40px;
+    height: 50%;
+    width: 25%;
+    color: #3c3257;
+    line-height: 1.5;
+    transition: transform .2s;
+}
+
+.step-container:hover {
+    transform: scale(1.1);
+}
+
+.step-image {
+    padding: 15px;
+    height: 250px;
+}
+
+
+/*========== 3RD SECTION: ERRAND OPTIONS ==========*/
+.third-section-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.section-3-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    width: 100%;
+    padding: 40px;
+}
+
+.section-3-heading {
+    font-size: 80px;
+    font-weight: 700;
+    color: #745abf;
+    margin: 0;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+.section-3-subheading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height:1.8;
+    width: 70%;
+    color: dimgrey;
+}
+
+.service-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: transform .3s;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    box-shadow: 1px 4px 10px 0px rgba(117, 117, 117, 0.75);
+    color: #3c3257;
+}
+
+.service:hover {
+    transform: scale(1.1);
+    background-color: #3c3257;
+    color: #fdfdfe;
+}
+
+.service-image {
+    width: 85%;
+}
+
+
+/*========== 4TH SECTION: ABOUT US ==========*/
+.fourth-section-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.section-4-text-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 40px;
+    margin: 20px;
+    border-right: 1px solid #3c3257;
+}
+
+.about-us-logo {
+    height: 250px;
+    margin-bottom: 30px;
+    transition: transform .3s;
+}
+
+.about-us-logo:hover {
+    transform: scale(1.1);
+}
+
+.section-4-heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    color: #3c3257;
+    transition: transform 0.3s;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+
+.section-4-heading:hover {
+    transform: scale(1.2);
+}
+
+.section-4-text-2 {
+    width: 35%;
+    padding: 40px;
+    margin: 20px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/*========== 5TH SECTION: PARTNERS ==========*/
+.fifth-section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.section-5-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    width: 100%;
+    padding: 40px;
+}
+
+.section-5-heading {
+    font-size: 80px;
+    font-weight: 700;
+    color: #745abf;
+    margin: 0;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+.section-5-subheading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height:1.8;
+    width: 70%;
+    color: dimgrey;
+}
+
+.partnerships-image {
+    width: 75%;
+    margin: 0;
+}
+
+
+/*========== 6TH SECTION: CONTACT US ==========*/
+.sixth-section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.section-6-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    padding: 20px;
+}
+
+.section-6-heading {
+    font-size: 60px;
+    font-weight: 700;
+    color: #745abf;
+    margin: 0;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+.section-6-subheading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height:1.8;
+    width: 70%;
+    color: dimgrey;
+}
+
+.contact-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35%;
+}
+
+.contact-option {
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    height: 100%;
+    padding: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: transform .3s;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    box-shadow: 1px 4px 10px 0px rgba(117, 117, 117, 0.75);
+    color: #3c3257;
+}
+
+.contact-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-subheading {
+    font-size: 18px;
+    font-weight: 400;
+    height: 40%;
+}
+
+.contact-button {
+    height: 60px;
+    width: 230px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #745abf;
+    transition-duration: 0.3s;
+    box-shadow: 1px 4px 10px 0px rgba(129, 129, 129, 0.75);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-button:hover {
+    transform: scale(1.1);
+    background-color: #3c3257;
+    color: #fdfdfe;
+}
+
+.contact-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10%;
+    width: 70%;
+    margin: 100px;
+}
+
+.email-address, .mailing-address {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c3257;
+}
+
+.mailing-address {
+    border-left: 2px solid #3c3257;
+}
+
+.inner-image {
+    height: 60px;
+    padding: 25px;
+}
+
+.inner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inner-heading {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.inner-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+/*==========7TH SECTION: REVIEWS ==========*/
+.seventh-section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.section-7-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.section-7-heading {
+    font-size: 60px;
+    font-weight: 700;
+    color: #745abf;
+    margin: 0;
+    text-shadow: 3px 3px rgba(201, 201, 201, 0.75);
+}
+
+.section-7-subheading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height:1.8;
+    width: 70%;
+    color: dimgrey;
+}
+
+
+/*==========7TH SECTION: COMMENT SECTION ==========*/
+.review-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 60%;
+}
+
+.review-inp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 1px 4px 10px 0px rgba(117, 117, 117, 0.75);
+    color: #3c3257;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.name-inp, .contact-inp, .comment-inp {
+    width: 85%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.post-button {
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #745abf;
+    transition-duration: 0.3s;
+    box-shadow: 1px 4px 10px 0px rgba(129, 129, 129, 0.75);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.post-button:hover {
+    transform: scale(1.1);
+    background-color: #3c3257;
+    color: #fdfdfe;
+}
+
+.comment-area {
+    height: 100%;
+    width: 40%;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 1px 4px 10px 0px rgba(117, 117, 117, 0.75);
+    color: #3c3257;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.comment-heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
